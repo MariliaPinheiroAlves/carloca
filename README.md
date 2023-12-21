@@ -1,10 +1,10 @@
 # Projeto CARLOCA
 
-## Visão Geral
+## 🌐 Visão Geral
 
 O  sistema CARLOCA é um projeto desenvolvido como parte do módulo de Banco de Dados da plataforma ADA. O projeto visa gerenciar veículos, clientes e locações em uma rede de franquias, abordando requisitos funcionais específicos sem adentrar em questões relacionadas a pagamentos.
 
-## Requisitos Funcionais
+##  📋 Requisitos Funcionais
 
 1. **Modelagem de Carro:**
     <br>[x] Um carro possui modelo, montadora, cor e versão.
@@ -33,7 +33,7 @@ O  sistema CARLOCA é um projeto desenvolvido como parte do módulo de Banco de 
 9. **Rastreamento de Localização:**
    <br>[x] Existem várias unidades da fraquia **CARLOCA** o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo.
 
-## Estrutura do Banco de Dados
+## 🗃️ Estrutura do Banco de Dados
 
 O banco de dados foi projetado considerando os princípios de normalização de dados. As principais tabelas incluem:
 
@@ -43,7 +43,7 @@ O banco de dados foi projetado considerando os princípios de normalização de 
 - **`franquia`:** Contém informações das franquias, não inclui campos de endereço diretamente na tabela, visando a normalização dos dados.
 - **`aluguel`:** Mantém todas as informações necessarias sobre um determinado aluguel.
 
-## Instruções de Uso
+## 📌 Instruções de Uso
 
 - Para criar o banco de dados, execute os scripts SQL fornecidos no arquivo `create.sql`;
 - Para inserção de dados execute os scripts SQL fornecidos no arquivo `insert.sql`, esse arquivo inclue informações ficticias apenas para implementação prática;

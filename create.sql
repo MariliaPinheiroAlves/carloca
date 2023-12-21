@@ -2,9 +2,9 @@ create table carro (
 	id int auto_increment not null primary key,
 	modelo varchar(255) not null,
 	cor enum('branco','preto','prata') null,
-	versao varchar(255),
-	categoria varchar(255),
-	is_available tinyint
+	versao varchar(255) null,
+	categoria varchar(255) null,
+	is_available tinyint not null
 );
 
 alter table carro modify column is_available tinyint default 1 null; --para determinar que por padrão o carro esta disponivel
@@ -16,9 +16,9 @@ create table endereco (
 	id int auto_increment not null primary key,
 	cep varchar(8) not null,
 	rua varchar(255) not null,
-	numero varchar(10),
-	bairro varchar(255),
-	complemento varchar(255)
+	numero varchar(10) null,
+	bairro varchar(255) null,
+	complemento varchar(255) null
 );
 
 alter table endereco add cidade varchar(255) not null;

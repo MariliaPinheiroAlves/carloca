@@ -7,31 +7,31 @@ O  sistema CARLOCA é um projeto desenvolvido como parte do módulo de Banco de 
 ##  📋 Requisitos Funcionais
 
 1. **Modelagem de Carro:**
-    <br>[x] Um carro possui modelo, montadora, cor e versão.
+    <br>✅ Um carro possui modelo, montadora, cor e versão.
 
 2. **Cores Disponíveis:**
-   <br>[x] As cores de carro disponiveis são apenas branco, preto e prata.
+   <br>✅ As cores de carro disponiveis são apenas branco, preto e prata.
 
 3. **Categorias de Veículos:**
-   <br>[x] Existem várias categorias de veiculos (hatch, sedam compacto, sedam médio, SUV, etc...).
+   <br>✅ Existem várias categorias de veiculos (hatch, sedam compacto, sedam médio, SUV, etc...).
 
 4. **Modalidade de Locação:**
-   <br>[x] Um cliente pode alugar um carro somente na modalidade "diária".
+   <br>✅ Um cliente pode alugar um carro somente na modalidade "diária".
 
 5. **Restrição de Locação por Cliente:**
-   <br>[x] Um cliente não pode alugar mais de um carro por vez.
+   <br>✅ Um cliente não pode alugar mais de um carro por vez.
 
 6. **Exclusividade de Locação:**
-   <br>[x] Enquanto um carro estiver locado por um cliente não pode ser ofertado para outro.
+   <br>✅ Enquanto um carro estiver locado por um cliente não pode ser ofertado para outro.
 
 7. **Histórico de Locações por Cliente:**
-   <br>[x] O sistema deve manter o histórico dos clientes que locaram determinado carro.
+   <br>✅ O sistema deve manter o histórico dos clientes que locaram determinado carro.
 
 8. **Registro de Quilometragem:**
-   <br>[x] O sistema deve manter o histórico de quantos quilometros o cliente rodou com o carro bem como a quilometragem atual de cada um dos carros.
+   <br>✅ O sistema deve manter o histórico de quantos quilometros o cliente rodou com o carro bem como a quilometragem atual de cada um dos carros.
 
 9. **Rastreamento de Localização:**
-   <br>[x] Existem várias unidades da fraquia **CARLOCA** o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo.
+   <br>✅ Existem várias unidades da fraquia **CARLOCA** o sistema deve saber onde o carro foi locado e onde foi devolvido cada veículo.
 
 ## 🗃️ Estrutura do Banco de Dados
 

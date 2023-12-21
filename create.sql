@@ -1,7 +1,7 @@
 create table carro (
 	id int auto_increment not null primary key,
 	modelo varchar(255) not null,
-	cor varchar(255) check (cor in ('branco', 'preto', 'prata')),
+	cor enum('branco','preto','prata') null,
 	versao varchar(255),
 	categoria varchar(255),
 	is_available tinyint

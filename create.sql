@@ -36,8 +36,6 @@ create table cliente (
 	constraint cliente_fk foreign key (id_endereco) references endereco(id)
 );
 
-alter table cliente add constraint cliente_un unique key (id_endereco);
-
 -- // ============================== // --
 
 create table franquia (

@@ -40,7 +40,7 @@ O banco de dados foi projetado considerando os princípios de normalização de 
 - **`carro`**: Contém informações sobre os veiculos;
 - **`endereco`**: Essa tabela centraliza informações como 'rua', 'cidade', 'cep', sendo referenciada nas tabelas **`cliente`** e **`franquia`** de forma que os dados fiquem mais consistentes;
 - **`cliente`**: Contém informações dos clientes, não inclui campos de endereço diretamente na tabela, visando a normalização dos dados.
-- **`franquia`:** Contém informações das franquias, não inclui campos de endereço diretamente na tabela, visando a normalização dos dados.
+- **`franquia`:** Contém informações das franquias, não inclui campos de endereço diretamente na tabela, visando a normalização dos dados, diferente da tabela cliente a tabela franquia na coluna id_cliente recebe uma constraint de 'unique key' para que uma franquia não consiga repetir o mesmo endereço de outra, garantido o relacionamento um para um com a tabela endereço.
 - **`aluguel`:** Mantém todas as informações necessarias sobre um determinado aluguel.
 
 ## 📌 Instruções de Uso
